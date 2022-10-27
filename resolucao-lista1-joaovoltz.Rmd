@@ -1,0 +1,190 @@
+---
+title: "resolucao-lista1-joaovoltz"
+author: "joao voltz"
+date: "2022-10-24"
+output: html_document
+---
+#Trabalho ADAR 
+#João Voltz
+#Exercício 1
+
+1 + 1
+100:130
+5 - +1
+3 * 5 / 100
+2 * 3
+4 - 1
+6 / (4 - 1)
+
+#Exercíciio 2
+
+12 + 3
+(12 + 3) * 2
+(12 + 3) * 2 - 10
+20 / 4
+
+#Exercício 3
+
+sqrt(16)
+16^0.5^3
+(16^0.5)^3
+4^3/2
+
+#Exercício 4
+
+log10(1000)
+log(1000)
+exp(log(1000))
+log2(64)
+
+#Exercício 5
+
+velocidade_da_luz <- 2.998 * 10^-1 
+Carga_eletronica <- 1.602 * 10^-19 
+permissividade_do_vacuo <- 8.85 * 10^-12 
+constante_de_planck <- 6.626 * 10^-34 
+constante_de_Stefan_Boltzman <- 5.67 * 10^-8 
+constante_solar <- 1380 
+constante_de_avogrado <- 6.022 * 10^23 
+constante_dos_gases_para_ar_seco <- 287.04 
+constante_dos_gases_ideais_para_vapor <- 461.5 
+densidade_ar_seco_CNTP <- 1.2754 
+pressao_media__ao_nivel_medio_do_mar_para_atmosfera_padrao <- 1013.25 
+temperatura_ao_nivel_medio_do_mar_para_atmosfera_padrao <- 288.15 
+calor_latente_de_vaporizaçao_ou_condensaçao <- 2.501 * 10^6 
+calor_latente_de_fusao <- 0.334 * 10^6 
+massa_molecular_da_agua <- 18.016 
+peso_molecula_do_ar <- 28.96 
+raio_da_terra <- 6.37 * 10^6 
+velocidade_angular_da_terra <- 7.29 * 10^-5 
+print(velocidade_da_luz)
+print(Carga_eletronica)
+print(permissividade_do_vacuo)
+print(constante_de_planck)
+print(constante_de_Stefan_Boltzman)
+print(constante_solar)
+print(constante_de_avogrado)
+print(constante_dos_gases_para_ar_seco)
+print(constante_dos_gases_ideais_para_vapor)
+print(densidade_ar_seco_CNTP)
+print(pressao_media__ao_nivel_medio_do_mar_para_atmosfera_padrao)
+print(temperatura_ao_nivel_medio_do_mar_para_atmosfera_padrao)
+print(calor_latente_de_vaporizaçao_ou_condensaçao)
+print(calor_latente_de_fusao)
+print(massa_molecular_da_agua)
+print(peso_molecula_do_ar)
+print(raio_da_terra)
+print(velocidade_angular_da_terra)
+
+#Exercício 6 
+
+print(format(round(pi, 20), nsmall = 20))
+exp(1)
+
+#Exercício 7
+#Calculando
+
+T <- 20
+UR <- 30
+print(T)
+print(UR)
+
+
+20 * atan(0.151977*(UR+ 8.313659)^1/2) + atan(T + UR) - atan(UR - 1.676331) + 0.00391838*(UR)^3/2 * atan(0.023101 * UR) - 4.686035
+
+TW = 52.18614
+TW <- 52.18614
+print(TW)
+
+
+#Exercício 9
+
+#calculando x14
+
+-1.05501 + 0.0650857*16.29
+
+x14 =  0.005236053
+x14 <-  0.005236053
+print(x14)
+
+#calculando x15
+
+-2.07588 + 0.0423954 * 49.25
+x15 =  0.01209345
+x15 <-  0.01209345
+print(x15)
+
+#calculando x16
+
+-6.03402 + 4.80572 * 1.25
+x16 =  -0.02687
+x16 <- -0.02687
+print(x16)
+
+#calculando x17
+
+-2.18409 + 8.84963 *25/100
+x17 = 0.0283175
+x17 <- 0.0283175
+print(x17)
+
+#calculando z9
+
+0.175202 + 1.18513*x17 - 0.0996042*(x17)^2 + 0.393814*x16 + 0.152095*(x17*x16)
+z9 = 0.1979845
+z9 <- 0.1979845
+print(z9)
+
+#calculando z10
+
+0.929344*z9 + 0.132519*x14
+z10 = 0.1846896
+z10 <- 0.1846896
+print(z10)
+
+#calculando teta10kpa
+
+0.339255 + 0.112526*z10
+teta10kpa = 0.3600374
+teta10kpa <-0.3600374
+print(teta10kpa)
+
+#calculando z11
+
+0.191452 + 1.25652*x17 - 0.079098*(x17)^2 + 0.393814*x16 +0.152095*x17*x16
+z11 = 0.2162726
+z11 <- 0.2162726
+print(z11)
+
+#calculando teta33kpa
+
+0.28951 + 0.103815*z11
+teta33kpa = 0.3119623
+teta33kpa <-0.3119623
+print(teta33kpa)
+
+#calculando z13
+
+0.235804 + 0.33033*x15 -0.191838*(x15)^2 + 0.543679*(x15)^3 +0.977685*x17 + 0.304174*(x15*x17) - 0.218857*(x17)^2 -0.164373*x15*(x17)^2 +0.0415057*(x17)^3 + 0.373361*x16 + 0.0811861*(x17*x16) - 0.0768087*(x15*x17*x16) 
+z13 = 0.2572921
+z13 <- 0.2572921
+print(z13)
+
+#calculando teta1500kpa
+
+0.214008 + 0.0862945*z13
+teta1500kpa = 2362109
+teta1500kpa <- 2362109
+print(teta1500kpa)
+
+sessionInfo()
+??round
+
+print(format(round(x14, 2), nsmall = 2))
+print(format(round(x15, 2), nsmall = 2))
+print(format(round(x16, 2), nsmall = 2))
+print(format(round(x17, 2), nsmall = 2))
+print(format(round(z10, 2), nsmall = 2))
+print(format(round(z11, 2), nsmall = 2))
+print(format(round(z13, 2), nsmall = 2))
+print(format(round(z9, 2), nsmall = 2))
